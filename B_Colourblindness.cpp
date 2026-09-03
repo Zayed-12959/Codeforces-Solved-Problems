@@ -40,10 +40,10 @@ int main(){
         }
 
         if(same){
-            cout << "YES" << endl;
+            cout << "YES";
         }
         else{
-            cout << "NO" << endl;
+            cout << "NO";
         }
 
         cout << endl;
