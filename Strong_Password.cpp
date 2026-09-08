@@ -16,7 +16,6 @@ int main(){
             ans += s[i];
             
             if(!inserted && i + 1 < s.length() && s[i] == s[i+1]){
-                // Insert a distinct character between the duplicate pair
                 char insert_char = (s[i] == 'a') ? 'b' : 'a';
                 ans += insert_char;
                 inserted = true;
